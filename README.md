@@ -36,7 +36,7 @@
 * **Summary:** I explored the baseline architecture of ServiceNow's ITSM applications and completed **Lab 1.2.1** to log in and verify my environment was running correctly.
   
 ### Lab 1.2.1: Verify ITSM Environment
-* I logged into my dedicated instance to validate the baseline infrastructure, configurations, and plugins required for the course
+* I logged into my dedicated instance to validate the baseline infrastructure, configurations, and plugins required for the course (Service Catalog app, Incident management app, problem management app, and change management app)
 
 ---
 <br>
@@ -48,6 +48,15 @@
 
 ### Lab 2.3.1: Verify Service Catalog Request and approval
 * I submitted a catalog item from the user perspective and routed it through the necessary manager approvals.
+
+##### Submitted a Standard Laptop request (REQ0010001) through the Service Catalog application and confirmed order placement:
+![2 & 3](screenshots/lab2.0.png)
+##### Submitted a request through the Employee Center portal to verify the alternate submission path:
+![2 & 3](screenshots/lab2.2.png)
+##### Verified automatic routing to approver Eric Schroeder and manually approved the request through the Approvers tab:
+![2 & 3](screenshots/lab2.3.png)
+##### Confirmed Service Desk visibility of request details, approval status, and requested items through the Requested Items list view:
+![2 & 3](screenshots/lab2.4.png)
 
 ### Lab 2.3.2: Verify Request Fulfillment And Tracking
 * Managed and updated the underlying fulfillment tasks to track the requested item all the way to completion.
