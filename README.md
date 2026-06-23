@@ -75,14 +75,36 @@
 ### Lab 3.2.1: Verify Incident Record Creation Capabilities
 * I practiced logging and triaging a new incident to document an active service disruption.
 
+##### Created incident record INC0010001 with a test description, confirming incident creation capability in the Incident Management application:
+![2 & 3](screenshots/lab3.01.png)
+#####  Escalated INC0010001 by setting Impact and Urgency to 1 - High, automatically triggering Priority 1 - Critical to verify escalation routing:
+![2 & 3](screenshots/lab3.02.png)
+
 ### Lab 3.2.2: Verify Incident Tracking And Resolution Capabilities
 * Investigated the disruption, applied a fix, and walked the incident through to formal resolution.
+
+##### Verified incident record INC0010001 contained all expected fields including priority, impact, urgency, and assignment information:
+![2 & 3](screenshots/lab3.11.png)
+##### Verified related records were created and visible within the incident record:
+![2 & 3](screenshots/lab3.12.png)
+##### Resolved INC0010001 by updating the State to Resolved with resolution notes, confirming end-to-end incident lifecycle completion:
+![2 & 3](screenshots/3.13.png)
 
 ### Lab 3.3.1:Verify Problem Record Creation Capabilities
 * Logged a problem record to investigate the underlying root cause behind recurring incidents.
 
+##### Created problem record PRB0007601 and verified successful record creation in the Problem Management application:
+![2 & 3](screenshots/3.20.png)
+##### Verified problem assessment capabilities by navigating through the Assess stage and reviewing impact, urgency, and priority fields:
+![2 & 3](screenshots/3.21.png)
+
 ### Lab 3.3.2: Verify Problem Tracking And Resolution Capabilities
 * Tracked the root-cause analysis, documented workarounds, and noted the permanent resolution to prevent future disruptions.
+
+##### Verified problem diagnosis capabilities by entering cause notes identifying email server misconfiguration as root cause in the Analysis Information tab:
+![2 & 3](screenshots/3.3.png)
+##### Verified problem solution and closure by entering fix notes and advancing the problem record to Resolved state:
+![2 & 3](screenshots/3.31.png)
 
 ---
 <br>
