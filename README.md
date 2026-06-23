@@ -117,8 +117,20 @@
 ### Lab 4.2.1: Verify Change creation And Authorization Capabilities
 * created a structured change request and routed it through the necessary risk assessments and authorization gates.
 
+##### Created change request CHG0030001 with scheduling and planning details, verifying change request creation and scheduling capabilities:
+![2 & 3](screenshots/4.0.png)
+##### Added a CI to the Affected CIs tab and completed risk and impact analysis fields to verify risk assessment and CI update capabilities:
+![2 & 3](screenshots/4.1.png)
+##### Verified automatic routing to CAB approvers and manually approved all approvals to authorize the change request:
+![2 & 3](screenshots/4.2.png)
+
 ### Lab 4.2.2: Verify Change Request Tracking And Closure Capabilities
 * Monitored the implementation of the change in the system and successfully closed it out after validating its success.
+
+##### Created change task CTASK0010001 linked to CHG0030001, verifying change task creation and association capabilities:
+![2 & 3](screenshots/4.3.png)
+##### Advanced CHG0030001 through all states from Assess to Closed, verifying full change request completion and closure lifecycle:
+![2 & 3](screenshots/4.4.png)
 
 <br>
 
